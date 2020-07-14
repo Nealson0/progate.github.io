@@ -1,13 +1,41 @@
-.main-section{
-  float:left;
-  background-color: ##bae8e8;
+body{
+  background-color: rgba(186, 232, 232, 0.2);
+  margin-right:80px;
+  margin-left:80px;
 }
 
-.main-section button{
+.main-section{
+  width:100%;
+}
+
+.main-section h3{
+  border-bottom:1px solid;
+}
+
+.main-content{
+  float:left;
+  margin:10px 30px;
+  border-radius: 8px;
+  border:1px solid;
+  text-align: center;
+  width:20%;
+}
+
+.main-content h4{
+  font-weight: bold;
+}
+
+.main-content button{
   background-color:#008CBA;
 
 }
 
-.main-section ul{
-  list-style-type: none;
+.main-content img{
+  width:70%;
+  height:70%;
+}
+
+
+.main-content button{
+  width:50%;
 }
