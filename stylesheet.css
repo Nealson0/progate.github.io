@@ -56,3 +56,18 @@ body{
 .main-button button:hover{
   background-color: rgba(232, 201, 44, 1);
 }
+
+.error-page{
+  text-align: center;
+  margin-top: 300px;
+}
+
+.error-page button{
+  width: 100px;
+  height: 50px;
+  transition: 0.5s
+}
+
+.error-page button:hover{
+  background-color: rgba(232, 201, 44, 1);
+}
