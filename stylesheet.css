@@ -1,3 +1,13 @@
-body{
-  color: "red";
+.main-section{
+  float:left;
+  background-color: ##bae8e8;
+}
+
+.main-section button{
+  background-color:#008CBA;
+
+}
+
+.main-section ul{
+  list-style-type: none;
 }
