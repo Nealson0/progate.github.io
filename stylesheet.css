@@ -16,6 +16,7 @@ body{
   border-radius: 8px;
   border:1px solid;
   width:20%;
+  height: 320px;
   background-color: white;
   display: inline-block;
   margin-right: 10px;
@@ -27,9 +28,14 @@ body{
 }
 
 .main-content button{
-  background-color:#008CBA;
+  background-color:rgba(194, 193, 186, 1);
   margin-bottom: 10px;
   width:50%;
+  transition: 0.5s;
+}
+
+.main-content button:hover{
+  background-color: rgba(232, 201, 44, 1);
 }
 
 .main-content img{
@@ -44,4 +50,9 @@ body{
 .main-button button{
   width: 25%;
   display: inline-block;
+  transition: 0.5s;
+}
+
+.main-button button:hover{
+  background-color: rgba(232, 201, 44, 1);
 }
