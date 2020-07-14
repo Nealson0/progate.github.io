@@ -1,24 +1,25 @@
 body{
   background-color: rgba(186, 232, 232, 0.2);
-  margin-right:80px;
-  margin-left:80px;
 }
 
-.main-section{
+.main-wrapper{
   width:100%;
+  text-align: center;
 }
 
-.main-section h3{
+.main-wrapper h3{
   border-bottom:1px solid;
+  font-size: 32px;
 }
 
 .main-content{
-  float:left;
-  margin:10px 30px;
   border-radius: 8px;
   border:1px solid;
-  text-align: center;
   width:20%;
+  background-color: white;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 20px;
 }
 
 .main-content h4{
@@ -27,15 +28,20 @@ body{
 
 .main-content button{
   background-color:#008CBA;
-
+  margin-bottom: 10px;
+  width:50%;
 }
 
 .main-content img{
-  width:70%;
-  height:70%;
+  width:40%;
+  height:40%;
 }
 
+.main-button-wrapper{
+  text-align: center;
+}
 
-.main-content button{
-  width:50%;
+.main-button button{
+  width: 25%;
+  display: inline-block;
 }
