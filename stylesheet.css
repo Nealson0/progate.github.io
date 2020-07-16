@@ -71,3 +71,36 @@ body{
 .error-page button:hover{
   background-color: rgba(232, 201, 44, 1);
 }
+
+.extra-section{
+  /* align-content: center; */
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.join {
+  padding: 15px 40px;
+  background-color: rgba(232, 201, 44, 1);
+  cursor: pointer;
+  box-shadow: 0 7px rgb(201, 169, 10);
+}
+
+.join:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.extra-section a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
