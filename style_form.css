@@ -1,0 +1,42 @@
+.contact-form {
+    text-align: center;
+    /* padding-top: 100px; */
+  }
+
+.contact-form span{
+    color: red;
+}
+  
+input{
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+}
+  
+input:focus{
+    outline: 2px solid rgb(66, 209, 245);
+}
+
+input[type=submit]:focus{
+    outline: none;
+}
+
+/* .contact-submit{
+    background-color:#dee7ec;
+    color:black;
+} */
+
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contents {
+    height: 500px;
+    margin-top: 100px;
+}
