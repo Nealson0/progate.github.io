@@ -5,10 +5,6 @@ body{
 .contact-form {
     text-align: center;
   }
-
-.contact-form span{
-    color: red;
-}
   
 input{
     width:400px;
