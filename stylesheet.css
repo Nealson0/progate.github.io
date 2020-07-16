@@ -113,7 +113,7 @@ body{
 
 .contact-form {
   padding-top: 50px;
-  height: 70px
+  height: 450px
 }
 
 input, textarea{
@@ -122,11 +122,6 @@ input, textarea{
   padding:20px;
   font-size:18px;
   border:1px solid #dee7ec;
-}
-
-.contact-submit{
-  background:#dee7ec;
-  color:#889eab;
 }
 
 .footer {
