@@ -1,6 +1,9 @@
+body{
+    background-color: rgba(186, 232, 232, 0.2);
+}
+
 .contact-form {
     text-align: center;
-    /* padding-top: 100px; */
   }
 
 .contact-form span{
@@ -24,10 +27,10 @@ input[type=submit]:focus{
     outline: none;
 }
 
-/* .contact-submit{
+.contact-submit{
     background-color:#dee7ec;
     color:black;
-} */
+}
 
 .section-title {
     border-bottom: 2px solid #dee7ec;
