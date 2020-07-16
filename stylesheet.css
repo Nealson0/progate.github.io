@@ -104,3 +104,45 @@ body{
   opacity: 0.8;
   border-radius: 4px;
 }
+
+.section-title {
+  border-bottom: 1px solid;
+  font-size: 32px;
+  text-align: center;
+}
+
+.contact-form {
+  padding-top: 50px;
+}
+
+input, textarea{
+  width:400px;
+  margin-bottom:10px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+.contact-submit{
+  background:#dee7ec;
+  color:#889eab;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 50px;
+  padding: 30px;
+  
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  line-height: 50px;
+}
+
+.img-footer{
+  width: 50px;
+}
+
