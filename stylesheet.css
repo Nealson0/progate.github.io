@@ -2,6 +2,36 @@ body{
   background-color: rgba(186, 232, 232, 0.2);
 }
 
+header{
+  background-color: #2f5167;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header .center{
+  font-size: 32px;
+  line-height: 50px;
+  display:inline-block;
+  margin-left: 15%;
+}
+
+header .right{
+  float:right;
+  display:inline-block;
+}
+
+header button{
+  width: 80px;
+  height: 32px;
+  transition: 0.5s;
+}
+
+header button:hover{
+  background-color: rgba(232, 201, 44, 1);
+}
+
+
 .main-wrapper{
   width:100%;
   text-align: center;
@@ -129,7 +159,7 @@ input, textarea{
   color: #fff;
   height: 50px;
   padding: 30px;
-  
+
 }
 
 .footer-logo {
@@ -141,4 +171,3 @@ input, textarea{
 .img-footer{
   width: 45px;
 }
-
