@@ -171,3 +171,13 @@ input, textarea{
 .img-footer{
   width: 45px;
 }
+@media all and (max-width: 1000px) {
+    .main-content {
+      width: 35%;
+      margin-bottom: 50px;
+    }
+  
+@media all and (max-width: 670px) {
+    .main-content {
+      width: 100%;
+    }
