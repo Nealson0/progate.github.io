@@ -176,8 +176,10 @@ input, textarea{
       width: 35%;
       margin-bottom: 50px;
     }
+}
   
 @media all and (max-width: 670px) {
     .main-content {
       width: 100%;
     }
+}
