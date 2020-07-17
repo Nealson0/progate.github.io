@@ -182,4 +182,7 @@ input, textarea{
     .main-content {
       width: 100%;
     }
+   input, textarea{
+      width:100%;
+    }
 }
